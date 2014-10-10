@@ -2,11 +2,33 @@
 /*  background-color: rgba(0, 0, 0, 0.7);*/
 background-color: rgba(62, 63, 58, 0.7);
   background-image: url('../images/pattern40.png');
-  height: 200px;
+  height: 400px;
 }
+
 
 .navbar-brand {
-  color: #6319D1 !important;
+  color: rgb(19, 132, 222)  !important;
   font-size: 2em;
+  font-weight: bold;
+  font-family: 'Francois One', sans-serif;
+  margin-bottom: -10px;
 }
 
+.navbar, .navbar-right, .active, .active > a, .navbar-right > li > a {
+  height: 76px;
+  line-height: 30px !important;
+}
+
+
+
+.navbar-tagline {
+  color: rgb(19, 132, 222)  !important;
+  font-family: 'Francois One', sans-serif;
+  margin-left: 148px;
+  font-style: italic;
+  margin-top: -30px;
+}
+
+.logo-first-letter {
+  font-size: 1.5em;
+}
