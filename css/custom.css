@@ -1,0 +1,12 @@
+.top-section {
+/*  background-color: rgba(0, 0, 0, 0.7);*/
+background-color: rgba(62, 63, 58, 0.7);
+  background-image: url('../images/pattern40.png');
+  height: 200px;
+}
+
+.navbar-brand {
+  color: #6319D1 !important;
+  font-size: 2em;
+}
+
