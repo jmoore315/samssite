@@ -10,6 +10,7 @@ background-color: rgba(62, 63, 58, 0.7);
   min-height: 400px;
   padding-bottom: 0;
   margin: 0;
+  /*margin-bottom: 10px;*/
 }
 
 
@@ -41,9 +42,9 @@ box-shadow: -1px 0px 21px 1px rgba(255,255,255,0.68);
 
 .homepage-image {
   height: 350px;
-  width: 600px;
+  /*width: 600px;*/
+  width: 100%;
   margin-top: 20px;
-  margin-left: 15px;
   border: 5px solid gray
 }
 
@@ -53,7 +54,7 @@ box-shadow: -1px 0px 21px 1px rgba(255,255,255,0.68);
 
 .top-section-text > p {
   color: rgb(221, 221, 221);
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .top-section-text {
@@ -61,6 +62,7 @@ box-shadow: -1px 0px 21px 1px rgba(255,255,255,0.68);
   margin-top: 0px;
   margin-left: 0px;
   font-family: sansation;
+  margin-bottom: 15px;
 }
 
 .contact-btn {
@@ -90,7 +92,31 @@ box-shadow: -1px 0px 21px 1px rgba(255,255,255,0.68);
   background-color: #E6EDEC;
 }
 
+.bottom-section-pic{
+  width: 100%;
+  height: 200px;
+  background-color: #3e3f3a;
+}
 
-.container {
-  width: 1100px;
+body {
+  background-color: #f9f9f9;
+}
+
+.bottom-section {
+  margin-top: 30px;
+}
+
+.bottom-section-text {
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+@media (min-width: 992px) {
+  .top-section-pic {
+    width: 54%;
+  }
+
+  .top-section-other {
+    width: 46%;
+  }
 }
