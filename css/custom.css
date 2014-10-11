@@ -104,12 +104,30 @@ body {
 
 .bottom-section {
   margin-top: 30px;
+  margin-bottom: 120px;
 }
 
 .bottom-section-text {
   font-size: 15px;
   margin-top: 15px;
 }
+
+footer {
+  background-color: #E6EDEC;
+  height: 45px;
+  text-align: center;
+}
+
+footer p {
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+/*.footer > .row {
+  height: 25px;
+}*/
 
 @media (min-width: 992px) {
   .top-section-pic {
