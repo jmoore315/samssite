@@ -1,6 +1,30 @@
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;  
+  height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+  height: 100%;
+  margin: 0 auto -45px; /* the bottom margin is the negative value of the footer's height */
+}
+
+.push {
+    height: 45px; /* .push must be the same height as .footer */
+}
+
+.well {
+  background-color: white;
+}
+
 @font-face {
   font-family: sansation;
   src: url('../fonts/Sansation-Regular.ttf');
+}
+
+@font-face {
+  font-family: sansation-light;
+  src: url('../fonts/Sansation-Light.ttf');
 }
 
 .top-section {
@@ -15,6 +39,7 @@ background-color: rgba(62, 63, 58, 0.7);
 .top-section h1 {
   color: white;
   text-align: left;
+  font-family: sansation-light;
 }
 
 .home-top {
@@ -125,6 +150,45 @@ body {
   margin-top: 15px;
 }
 
+.icon-wrapper {
+  height: 70px;
+  width: 70px;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 50%;
+-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.icon-wrapper span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contact-info h3 {
+  height: 70px;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: sansation;
+  font-size: 20px;
+}
+
+.contact-info p {
+  font-size: 16px;
+}
+
+.map {
+  padding: 10px;
+  background-color: white;
+  border: 2px solid #E6EDEC;;
+}
+#map_canvas {
+  height: 200px;
+  width: 300px;
+  background-color: gray;
+}
+
 footer {
   background-color: #E6EDEC;
   height: 45px;
@@ -151,3 +215,4 @@ footer p {
     width: 46%;
   }
 }
+
