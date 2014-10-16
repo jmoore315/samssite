@@ -43,7 +43,7 @@ background-color: rgba(62, 63, 58, 0.7);
 }
 
 .home-top {
-  min-height: 400px;
+  /*min-height: 400px;*/
 }
 
 .navbar-brand {
@@ -74,16 +74,17 @@ box-shadow: -1px 0px 21px 1px rgba(255,255,255,0.68);
 
 
 .homepage-image {
-  height: 350px;
+  /*height: 350px;*/
   /*width: 600px;*/
   width: 100%;
-  margin-top: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   border: 5px solid gray
 }
 
 
 .top-section-text > .page-header {
-  color: white;
+  color: rgb(34, 34, 34);
 }
 
 .bottom-section .page-header {
@@ -91,7 +92,7 @@ box-shadow: -1px 0px 21px 1px rgba(255,255,255,0.68);
 }
 
 .top-section-text > p {
-  color: rgb(221, 221, 221);
+  /*color: rgb(221, 221, 221);*/
   font-size: 17px;
 }
 
@@ -101,6 +102,7 @@ box-shadow: -1px 0px 21px 1px rgba(255,255,255,0.68);
   margin-left: 0px;
   font-family: sansation;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .contact-btn {
@@ -206,13 +208,13 @@ footer p {
   height: 25px;
 }*/
 
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   .top-section-pic {
     width: 54%;
   }
 
   .top-section-other {
     width: 46%;
-  }
+  }*/
 }
 
