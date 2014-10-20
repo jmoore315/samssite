@@ -28,22 +28,16 @@ html, body {
 }
 
 .top-section {
-/*  background-color: rgba(0, 0, 0, 0.7);*/
-background-color: rgba(62, 63, 58, 0.7);
+  background-color: rgba(62, 63, 58, 0.7);
   background-image: url('../images/pattern40.png');
   padding-bottom: 0;
   margin: 0;
-  /*margin-bottom: 10px;*/
 }
 
 .top-section h1 {
   color: white;
   text-align: left;
   font-family: sansation-light;
-}
-
-.home-top {
-  /*min-height: 400px;*/
 }
 
 .navbar-brand {
@@ -55,7 +49,6 @@ background-color: rgba(62, 63, 58, 0.7);
 }
 
 .navbar, .navbar-right, .active, .active > a, .navbar-right > li > a {
-  /*height: 70px;*/
   line-height: 30px !important;
   margin-bottom: 0;
 }
@@ -73,9 +66,6 @@ box-shadow: -1px 0px 21px 1px rgba(255,255,255,0.68);
 
 
 .homepage-image {
-  /*height: 350px;*/
-  /*width: 600px;*/
-  /*width: 100%;*/
   margin-top: 5px;
   margin-bottom: 5px;
   border: 5px solid gray
@@ -91,15 +81,17 @@ box-shadow: -1px 0px 21px 1px rgba(255,255,255,0.68);
 }
 
 .top-section-text > p {
-  /*color: rgb(221, 221, 221);*/
   font-size: 17px;
+}
+
+.bottom-section-header {
+  font-weight: bold;
 }
 
 .founder-image {
   width: 50%;
 }
 .top-section-text {
-  /*position: absolute;*/
   margin-top: 0px;
   margin-left: 0px;
   font-family: sansation;
@@ -113,7 +105,6 @@ box-shadow: -1px 0px 21px 1px rgba(255,255,255,0.68);
   margin-top: 10px;
   font-size: 1.5em;
   font-weight: normal;
-  /*text-transform: none;*/
   font-family: sansation;
 }
 
