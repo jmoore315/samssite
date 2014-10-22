@@ -109,7 +109,7 @@ box-shadow: -1px 0px 21px 1px rgba(255,255,255,0.68);
 }
 
 .navbar-header {
-  width: 800px;
+  /*width: 00px;*/
 }
 .navbar-tagline {
   color: rgb(19, 132, 222)  !important;
@@ -120,6 +120,13 @@ box-shadow: -1px 0px 21px 1px rgba(255,255,255,0.68);
   margin-top: 30px;
   font-weight: normal;
 
+}
+
+.navbar-brand {
+  padding-top: 12px;
+}
+.navbar-brand > img {
+  height: 45px;
 }
 
 .logo-first-letter {
@@ -304,4 +311,5 @@ a:hover.slidesjs-stop {
 #slides {
   margin-top: 20px;
 }
+
 
