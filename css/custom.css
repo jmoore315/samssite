@@ -115,6 +115,11 @@ box-shadow: -1px 0px 21px 1px rgba(255,255,255,0.68);
 
 }
 
+.navbar-temp {
+  height: 500px;
+}
+
+
 
 .navbar-tagline {
   color: rgb(19, 132, 222)  !important;
