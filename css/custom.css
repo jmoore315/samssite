@@ -110,7 +110,12 @@ box-shadow: -1px 0px 21px 1px rgba(255,255,255,0.68);
 
 .navbar-header {
   /*width: 00px;*/
+  /*max-width: 300px;*/
+  max-width: 550px;
+
 }
+
+
 .navbar-tagline {
   color: rgb(19, 132, 222)  !important;
   font-family: 'Francois One', sans-serif;
@@ -123,10 +128,11 @@ box-shadow: -1px 0px 21px 1px rgba(255,255,255,0.68);
 }
 
 .navbar-brand {
-  padding-top: 12px;
+  padding-top: 15px;
 }
 .navbar-brand > img {
-  height: 45px;
+  max-height: 45px;
+  width: 100%;
 }
 
 .logo-first-letter {
