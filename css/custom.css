@@ -38,6 +38,9 @@ html, body {
   color: white;
   /*text-align: left;*/
   font-family: sansation-light;
+  right:0;
+  position: relative;
+  margin-right: 100px;
 }
 
 .navbar-brand {
